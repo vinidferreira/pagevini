@@ -4,3 +4,25 @@ body {
     margin: 0;
     padding: 0;
 }
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    background-color: #333;
+    padding: 5px 20px;
+    color: white;
+    height: 38px;
+}
+.contato-botao {
+    border: none;
+    border-radius: 100px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
+}
+.contato-botao:hover {
+    border: 1px solid white;
+}
+.logo {
+    font-size: 20px;;
+}
